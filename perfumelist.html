@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>لیست قیمت عطرهای لاکچری</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Noto Naskh Arabic', serif;
+            background-color: #f8f5f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+        
+        .luxury-container {
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        .luxury-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .luxury-header h1 {
+            color: #d4af37;
+            font-size: 28px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+        
+        .luxury-table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 12px;
+            background: white;
+        }
+        
+        .luxury-table thead {
+            background: linear-gradient(135deg, #d4af37 0%, #f9e076 100%);
+            color: #000;
+        }
+        
+        .luxury-table th {
+            padding: 16px 12px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 16px;
+            border-right: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .luxury-table th:last-child {
+            border-right: none;
+        }
+        
+        .luxury-table td {
+            padding: 14px 12px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            border-right: 1px solid #eee;
+            transition: all 0.3s ease;
+        }
+        
+        .luxury-table td:last-child {
+            border-right: none;
+        }
+        
+        .luxury-table tbody tr:nth-child(even) {
+            background-color: #fffdf9;
+        }
+        
+        .luxury-table tbody tr:hover {
+            background-color: #fff8e8;
+            transform: scale(1.005);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        
+        .perfume-name {
+            font-weight: 700;
+            color: #333;
+            text-align: right;
+            padding-right: 20px !important;
+        }
+        
+        .price-cell {
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .gold-text {
+            color: #d4af37;
+            font-weight: 700;
+        }
+        
+        .highlight {
+            background-color: #fffaf0;
+        }
+        
+        .note {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="luxury-container">
+        <div class="luxury-header">
+            <h1>لیست قیمت عطرهای همسر پرفیوم</h1>
+        </div>
+        
+        <table class="luxury-table">
+            <thead>
+                <tr>
+                    <th>پنجاه میل</th>
+                    <th>سی میل</th>
+                    <th>بیست میل</th>
+                    <th>ده میل</th>
+                    <th>نام عطر</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class="price-cell">۶۵۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۹۰</td><td class="price-cell">۱۷۰</td><td class="perfume-name">شنل پلاتینیوم</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">تایگار</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">مارلی آلتیر</td></tr>
+                <tr><td class="price-cell">۶۵۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۹۰</td><td class="price-cell">۱۷۰</td><td class="perfume-name">ایسی میاکی ماجور</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۶۵۰</td><td class="price-cell gold-text">۳۹۰</td><td class="price-cell gold-text">۲۹۰</td><td class="price-cell gold-text">۱۷۰</td><td class="perfume-name">بای کیلیان بلومون</td></tr>
+                <tr><td class="price-cell">۶۵۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۹۰</td><td class="price-cell">۱۷۰</td><td class="perfume-name">بولگاری اکوا امارا</td></tr>
+                <tr><td class="price-cell">۶۵۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۹۰</td><td class="price-cell">۱۷۰</td><td class="perfume-name">زرجوف اکسنتو</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۷۰۰</td><td class="price-cell gold-text">۴۳۰</td><td class="price-cell gold-text">۳۲۰</td><td class="price-cell gold-text">۱۹۰</td><td class="perfume-name">کرید سیلور مانتین</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">گانیمد</td></tr>
+                <tr><td class="price-cell">۶۵۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۹۰</td><td class="price-cell">۱۷۰</td><td class="perfume-name">ناتیکا ویاژ</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۷۰۰</td><td class="price-cell gold-text">۴۳۰</td><td class="price-cell gold-text">۳۲۰</td><td class="price-cell gold-text">۱۹۰</td><td class="perfume-name">ویکتوریا نایت</td></tr>
+                <tr><td class="price-cell">۸۰۰</td><td class="price-cell">۴۹۰</td><td class="price-cell">۳۹۰</td><td class="price-cell">۲۱۰</td><td class="perfume-name">فرعون</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">یارا</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۹۵۰</td><td class="price-cell gold-text">۵۹۰</td><td class="price-cell gold-text">۴۵۰</td><td class="price-cell gold-text">۲۵۰</td><td class="perfume-name">لویی ویتون پسفیک چیل</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">۴۵۰</td><td class="price-cell">۲۵۰</td><td class="perfume-name">جورجیو آرمانی اکوا دی جیو ابسولو</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">۴۵۰</td><td class="price-cell">۲۵۰</td><td class="perfume-name">الکساندریا۲</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۹۵۰</td><td class="price-cell gold-text">۵۹۰</td><td class="price-cell gold-text">۴۵۰</td><td class="price-cell gold-text">۲۵۰</td><td class="perfume-name">مارلی هالتان</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">۴۵۰</td><td class="price-cell">۲۵۰</td><td class="perfume-name">بیلی آیلیش</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">آمواج گایدنس</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">۳۲۰</td><td class="price-cell">۱۹۰</td><td class="perfume-name">ایوسن‌لورن وای</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۷۰۰</td><td class="price-cell gold-text">۴۳۰</td><td class="price-cell gold-text">۳۲۰</td><td class="price-cell gold-text">۱۹۰</td><td class="perfume-name">دیور هوم اینتنس</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">۴۵۰</td><td class="price-cell">۲۵۰</td><td class="perfume-name">لویی ویتون لیمنسیت</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۹۵۰</td><td class="price-cell gold-text">۵۹۰</td><td class="price-cell gold-text">۴۵۰</td><td class="price-cell gold-text">۲۵۰</td><td class="perfume-name">کرید اونتوس ابسولو</td></tr>
+                <tr><td class="price-cell">۸۰۰</td><td class="price-cell">۴۹۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">مارلی کالان</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">فلورنارکوتیک</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">تیزیانا ترنزی کیرکه</td></tr>
+                <tr class="highlight"><td class="price-cell gold-text">۹۵۰</td><td class="price-cell gold-text">۵۹۰</td><td class="price-cell gold-text">-</td><td class="price-cell gold-text">-</td><td class="perfume-name">کازاموراتی بوکت ایدل</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">تام فورد لاست چری</td></tr>
+                <tr><td class="price-cell">۹۵۰</td><td class="price-cell">۵۹۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">کازاموراتی مفیستو</td></tr>
+                <tr><td class="price-cell">۷۰۰</td><td class="price-cell">۴۳۰</td><td class="price-cell">-</td><td class="price-cell">-</td><td class="perfume-name">آمواج هانر</td></tr>
+            </tbody>
+        </table>
+        
+        <div class="note">
+            09307780817 | hamsarperfume@
+        </div>
+    </div>
+</body>
+</html>
